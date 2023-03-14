@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <form onsubmit="submission()"> Select your favorite color: <input type="color" name="favcolor"><br> Birthday: <input
+      type="date" name="bday" required="required"><br> E-mail: <input type="email" name="email" required="required"><br>
+    Telephone: <input type="tel" name="usrtel" required="required"><br> Your favourite browser: <input list="browsers">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist><br> <input type="url" name="homepage" placeholder="Key in your homepage"><br><br> <input type="submit"
+      value="Submit"> <input type="reset" value="Reset"> </form>
+</body>
+<script src="./index.js"></script>
+</html>

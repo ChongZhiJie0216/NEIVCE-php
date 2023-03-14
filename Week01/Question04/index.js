@@ -1,0 +1,1 @@
+function submission(){ alert("Thanks for your submission!"); }

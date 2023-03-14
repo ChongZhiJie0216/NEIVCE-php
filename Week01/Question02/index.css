@@ -1,0 +1,43 @@
+#nav ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4 px 17px 0;
+  background-color: #66FF66;
+
+}
+
+#nav ul li {
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+}
+
+#nav ul li:hover {
+  background-color: #FFFF99;
+}
+
+#nav ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+#nav ul li ul li{
+  background-color: #555;
+  display: block;
+  color: #fff;
+}
+#nav ul li ul li:hover{
+  background-color: #666;
+}
+#nav ul li:hover ul{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
